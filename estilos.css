@@ -1,0 +1,47 @@
+*{
+    margin:0px
+}
+.index{
+    
+    background-image: url(perritos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.principal{
+    /*border: 5px solid palegoldenrod;*/
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   text-align: center;
+
+
+}
+
+.principal_titulo{
+
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.principal_parrafo{
+    font-size: 20px;
+}
+
+.principal_button{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
